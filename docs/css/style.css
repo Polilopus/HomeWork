@@ -436,38 +436,24 @@ body, html {
 /* Contact styles start */
 
 .contact {
-    padding-top: 130px;
+    padding-top: 100px;
 }
 
 
-.contact-us::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -85px;
-    background: url('/Images/car-outside.svg');
-    width: 976px;
+.contact-block {
+    background-image: url('/Images/car.svg');
+    width: 1920px;
     height: 502px; 
 }
 
-.contact-us::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 440px;
-    background: url('/Images/car-inside.svg');
-    width: 944px;
-    height: 502px;  
-}
-
 .contact-us {
-    position: relative;
-    padding: 128px 80px;
+    background-color: #FF6433;
     width: 729px;
     height: 502px;
-    background-color: #FF6433;
-
+    margin-left: -230px;
+    padding: 128px 80px;
 }
+
 .contact-us__title {
     width: 569px;
     font-weight: 700;
@@ -484,7 +470,10 @@ body, html {
     background: #1E1B1B;
 }
 
+
 /* Contact styles end */
+
+/* ------------------------------------------------- */
 
 
 /* Info styles start */
@@ -520,3 +509,41 @@ body, html {
     opacity: 0.7;
 }
 /* Info styles end */
+
+/* ------------------------------------------------- */
+
+/* Brands start */
+
+.brands {
+    background: #E2E6E9;
+    padding-top: 128px;
+}
+
+.brands-title {
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 76px;
+    letter-spacing: -1.74px;
+    color: black;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.brands-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brands-img {
+    transition: all .3s;
+    fill: #1E1B1B;
+}
+
+.brands-img:hover {
+    fill: red;
+}
+
+
+
+/* Brands end */
