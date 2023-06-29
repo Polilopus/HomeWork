@@ -443,7 +443,7 @@ body, html {
 
 
 .contact-block {
-    background-image: url('/Images/car.svg');
+    background-image: url('../Images/car.svg');
     width: 1920px;
     height: 502px; 
     margin: 0 auto;
