@@ -678,6 +678,256 @@ body, html {
     line-height: 28px;
     margin-bottom: 64px;
 }
-
-
 /* Blog styles end */
+
+
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+
+
+/* Customers styles start */
+
+.customers {
+    background-color: #F2F2F2;
+    padding-top: 128px;
+    padding-bottom: 136px;
+    
+}
+
+.customers-title {
+    max-width: 909px;
+    font-weight: 800;
+    line-height: 76px;
+    font-size: 58px;
+    letter-spacing: -1.74px;
+    text-align: center;
+    color: #1E1B1B;
+    padding-bottom: 76px;
+    margin: 0 auto;
+}
+
+.customers-slider__wrapper {
+    position: relative;
+    padding-bottom: 16px;
+}
+.customers-slider {
+   padding-bottom: 26px;
+}
+
+
+.customers-slide {
+    position: relative;
+}
+
+
+.customers-slide__1 {
+    background-color: #fff;
+    max-width: 616px;
+    padding: 72px;
+    border-radius: 4px;
+}
+
+.customers-slide__2 {
+    background-color: #fff;
+    max-width: 616px;
+    padding: 72px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 4px;
+}
+
+.customers-slide__inner {
+    max-width: 472px;
+}
+.customers-user {
+    display: flex;
+    margin-bottom: 24px;
+}
+.customers-image {
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.customers-info {
+    display: flex;
+    flex-direction: column;
+}
+.customers-info__name {
+    color: #1E1B1B;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.72px;
+}
+.customers-info__city {
+    color: #939191;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.customers-quote {
+    color: #1E1B1B;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.72px;
+}
+
+
+.customers-arrow {
+    position: absolute;
+    right: 0px;
+}
+
+.customers-arrow:hover path {
+    fill: white;
+    transition: all .3s;
+}
+
+.customers-prev {
+    right: 65px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 13px 10px;
+}
+
+.customers-next {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 13px 10px;
+}
+
+.customers-prev:hover, .customers-next:hover {
+    background-color: #000;
+    transform: scale(1.1);
+    transition: all .3s;
+}
+
+
+.customers-dots .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .customers-dots li {
+    margin-top: -10px;
+    margin-right: 12px;
+  }
+  
+  .customers-dots li:last-child {
+    margin-right: 0;
+  }
+  
+  .customers-dots button {
+    font-size: 0;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .customers-dots button::before {
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: #B3B7BC;
+    border-radius: 3px;
+  }
+  
+  .customers-dots .slick-active button::before {
+    background-color: #FF6433;
+    transition: all .3s;
+  }
+
+/* Customers styles end */
+
+
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+
+
+/* Questions styles start */
+
+.questions {
+    background-color: #E2E6E9;
+    padding-top: 120px;
+    padding-bottom: 128px;
+}
+
+.questions-title {
+    font-size: 58px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 76px;
+    letter-spacing: -1.74px;
+    color: #1E1B1B;
+    padding-bottom: 86px;
+}
+
+.questions-acc {
+    width: 896px;
+    margin: 0 auto;
+}
+.questions-acc__item {
+    background-color: #fff;
+    margin-bottom: 12px;
+    padding: 40px;
+}
+
+.questions-acc__item:last-child {
+    margin-bottom: 0;
+}
+
+.questions-acc__head {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.72px;
+    color: #1E1B1B;
+    position: relative;
+}
+
+.questions-acc__head::after {
+    content: "";
+    position: absolute;
+    top: 18px;
+    right: 0;
+    height: 2px;
+    width: 17px;
+    background: #FFFFFF;
+}
+
+.questions-acc__head::before {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 20px;
+    top: 0;
+    left: 786px;
+    background: #FF6433;
+    padding: 7px 22px;
+}
+
+.questions-acc__head::after {
+    transform: rotate(90deg);
+    transition: all .3s;
+}
+
+.questions-acc__link--active .questions-acc__head::after {
+    transform: rotate(0deg);
+  }
+
+.questions-acc__text {
+    padding-top: 16px;
+    width: 700px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 175%;
+    color: #939191;
+}
+
+
+/* Questions styles end */
