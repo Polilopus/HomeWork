@@ -47,5 +47,22 @@ $(function () {
   })
 
 
+
+  setInterval(() => {
+    if ($(window).scrollTop() > 0 && $('.header-top').hasClass('header-top--open') === false) {
+      $('.burger').addClass('burger--follow')
+    } else {
+      $('.burger').removeClass('burger--follow')
+    }
+  }, 0)
+  $('.burger, .overlay, .header-top a').on('click', function (e) {
+    e.preventDefault()
+    $('.header-top').toggleClass('header-top--open')
+    $('.overlay').toggleClass('overlay--show')
+  })
+
+
+
+
  })
 
